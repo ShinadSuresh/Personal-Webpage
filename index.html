@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("SqSuxq6MXi3GJy573");
+   })();
+</script>
+<script type="text/javascript">
+    window.onload = function() {
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // generate a five digit number for the contact_number variable
+            this.contact_number.value = Math.random() * 100000 | 0;
+            // these IDs from the previous steps
+            emailjs.sendForm('contact_service', 'contact_form', this)
+                .then(function() {
+                    console.log('SUCCESS!');
+                }, function(error) {
+                    console.log('FAILED...', error);
+                });
+        });
+    }
+  </script>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Shinad Suresh</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" 
+                    src="assets/img/my nw.jpeg.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact-form">Contact </a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Shinad
+                        <span class="text-primary">Suresh</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        B P House Vengara P.O Vengara, Kannur, Kerala. 
+                        Pin Code: 670305 
+                        <br>
+                        <a href="shinadbp55@gmail.com">shinadbp55@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">I am a Fresher to Creative Designer with few month Experiance in project Management,Advertisement and Computer aided Design.Proven ability to Transform Client ideas into beautiful functional Design Solutions.I was an Professional Accountant with 3 Year Experiance and Switch and build my Career to a full Stack Developer. </p>
+                    
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Junior Accountant</h3>
+                            <div class="subheading mb-3">V & V Associates</div>
+                            <p>worked as an Account Assistant in V & V     
+                                    Associates.My Account Journey will started.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2019 - 2020 
+                            March</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Accountant</h3>
+                            <div class="subheading mb-3">Co Operative Stores Ltd. </div>
+                            <p>Work as an Accountant in Pilathara co operative stores Ltd. position requires a self-motivated individual to maintain a complete and systamatic set of subsidiary records and ledger accountants to record financial trancsactions of the system by performing the duties assigned in a manner which produces maximum economic and administrative efficiences. </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2020 - 
+                            Dec 2022
+                        </span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                             
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Web Design Intern</h3>
+                            <div class="subheading mb-3">Bridgeon Solutions</div>
+                            <p>Now I am as an Intern in Bridgeon Solutions for switch my career as an IT Professional.Developers are the next revolution maker for world that i switch my career.I joined there To Develop my coding skills and Designing skills. </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">march 2023 -still</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">University of Kannur</h3>
+                            <div class="subheading mb-3">Bachelor of Commerce</div>
+                            <div>co-operation</div>
+                            <p></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">june 2013 - May 
+                            2016</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Govt.Vovational Higher Secondary Madayi</h3>
+                            <div class="subheading mb-3">Accountancey and Auditing </div>
+                            <p></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2011 - March
+                             2012</span></div>
+                             
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        
+                        
+                        
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                             Microsoft Excel, Power Point and Microsoft Word.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Tally
+                            
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Peachtree
+                            
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Tradeasy
+                        </li>
+
+                        
+                    </ul>
+                    <br>
+                    <div class="subheading mb-3">My Project</div>
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                          <div class="card-img">
+                            <a href="clone project Whatsapp/" ><img src="assets/img/my Project.jpeg.png" alt="" class="img-fluid"></a>
+                          </div>
+                          <div class="card-body">
+                            <div class="card-category-box">
+                              <div class="card-category">
+                                <h6 class="category">Web Design</h6>
+                              </div>
+                            </div>
+                            <h3 class="card-title"><a href="blog-single.html">WhatsApp web front page</a></h3>
+                            <p class="card-description">
+                              its my first Designed Page, created WhatsApp Web front page usong basic HTML and CSS. So it's not a fully finished.
+                               
+                            </p>
+                          </div>
+                          <div class="card-footer">
+                            <div class="post-author">
+                              <a href="#">
+                                <img src="Photos/pro.jpg" alt="" class="avatar rounded-circle">
+                                <span class="author"></span>
+                              </a>
+                            </div>
+                            <div class="post-date">
+                              <span class="bi bi-clock"></span> 10 min
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+        
+                </div>
+                
+                
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Apart from being a web developer, I enjoy most of my time being outdoors.  I am an Nature Explorer. During vecation , I play football very much, I love to read Very much.</p>
+                    <p class="mb-0">When forced indoors, I follow , and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Contact -->
+            <section class="resume-section" id="contact-form">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Contact Us</h2>
+                    <ul class="fa-ul mb-0">
+                        <div class="social-icons">
+                            <a class="social-icon" href="https://in.linkedin.com/company/linkedin"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social-icon" href="https://github.com"><i class="fab fa-github"></i></a>
+                            <a class="social-icon" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="social-icon" href="https://mail.google.com"><i class="fa-solid fa-envelope"></i></a>
+    
+                            <div class="emailForm">
+                                
+                                <div class="row">
+                                    <div class="col-md-12 mb-3">
+                                      <div class="form-group">
+                                        <input type="text" name="contact_number" class="form-control" id="name" placeholder="Your Name" required>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-12 mb-3">
+                                      <div class="form-group">
+                                        <input type="email" class="form-control" name="user_name" id="email" placeholder="Your Email" required>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-12 mb-3">
+                                      <div class="form-group">
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                      <div class="form-group">
+                                        <textarea class="form-control" name="message" rows="5" placeholder="Message" required id="msg"></textarea>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-12 text-center my-3">
+                                      <div class="loading">Loading</div>
+                                      <div class="error-message"></div>
+                                      <div class="sent-message">Your message has been sent. Thank you!</div>
+                                    </div>
+                                    <div class="col-md-12 text-center">
+                                      <button type="submit" class="button button-a button-big button-rouded" onclick="sendMail()">Send Message</button>
+                                    </div>
+                                  </div>
+                                </form>
+                                
+                            </div>
+    
+    
+                        </div>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="js/email.js"></script>
+    </body>
+</html>
